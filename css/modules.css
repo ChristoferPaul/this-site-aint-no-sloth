@@ -1,0 +1,108 @@
+/*
+ * Modulifier || Code released under the UNLICENSE
+ * Code under other copyrights & licenses listed below.
+ * https://modulifier.web-dev.tools/#responsive;images;list-group;embed;media-object;positioning;accessibility;print
+ */
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+a,
+area,
+button,
+input,
+label,
+select,
+textarea,
+[tabindex] {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+img {
+  border: 0;
+}
+
+.img-flex,
+.img-flex img {
+  display: block;
+  width: 100%;
+}
+
+.embed {
+  margin-left: 0;
+  margin-right: 0;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.embed-3by2, .embed--3by2 {
+  padding-top: 66.6%; /* Classic 35 mm film & most digital photos, landscape */
+}
+
+.embed-2by3, .embed--2by3 {
+  padding-top: 150%; /* Classic 35 mm film & most digital photos, portrait */
+}
+
+.embed-item, .embed__item {
+  min-height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.center-block {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.relative {
+  position: relative;
+}
+
+[class*="pin-"],
+.absolute {
+  position: absolute;
+}
+
+.pin-top-left,
+.pin-left-top,
+.pin-tl,
+.pin-lt {
+  top: 0;
+  left: 0;
+}
+
+.width-full, .w-1 {
+  width: 100%;
+}
